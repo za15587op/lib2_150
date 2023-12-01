@@ -6,7 +6,7 @@ class FirstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("name")),
+      appBar: AppBar(title: const Text("Pongsak")),
       body: Center(
         child: Container(
           child: Column(
@@ -27,7 +27,8 @@ class FirstPage extends StatelessWidget {
                       children: [
                         Text(
                           "Jungfrau",
-                          style: TextStyle(fontWeight: FontWeight.bold),
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 30),
                         ),
                         Text("Switzerland"),
                       ],
