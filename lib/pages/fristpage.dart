@@ -23,7 +23,7 @@ class FirstPage extends StatelessWidget {
                 children: [
                   Container(
                     padding: EdgeInsets.only(top: 25),
-                    child: Column(
+                    child: const Column(
                       children: [
                         Text(
                           "Jungfrau",
@@ -33,7 +33,7 @@ class FirstPage extends StatelessWidget {
                       ],
                     ),
                   ),
-                  Row(
+                  const Row(
                     children: [
                       Icon(Icons.star),
                       Text("5.0"),
@@ -44,8 +44,8 @@ class FirstPage extends StatelessWidget {
               Column(
                 children: [
                   Container(
-                    padding: EdgeInsets.all(25),
-                    child: Text(
+                    padding: const EdgeInsets.all(25),
+                    child: const Text(
                         "หนึ่งในสถานที่ เที่ยวทั่วโลกต่อมา คือ Jungfrau เป็นสถานที่ท่องเที่ยวที่น่าเที่ยวที่สุดของยุโรปก็ว่าได้ เพราะเป็น “ท็อปออฟยุโรป” หรือ จุดที่สูงที่สุดของยุโรป บนเทือกเขาแอลป์ ในประเทศสวิตเซอร์แลนด์ ล้อมรอบด้วยภูเขาไอเกอร์เมินช์ และยุงเฟรา ที่นี่ยังเป็นบริเวณแรกในเทือกเขาแอลป์ที่ได้รับการขึ้นทะเบียนเป็น “มรดกโลก” อีกด้วย"),
                   ),
                 ],
